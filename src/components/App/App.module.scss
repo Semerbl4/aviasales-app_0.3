@@ -1,0 +1,46 @@
+$background: #f8ffff;
+$prime-font: #4a4a4a;
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: $background;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: $prime-font;
+}
+
+.container {
+  width: 754px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.tickets-info {
+  flex-grow: 2;
+}
